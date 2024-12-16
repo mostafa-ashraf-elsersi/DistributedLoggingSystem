@@ -1,0 +1,13 @@
+﻿namespace Microservice.DatabaseLayer
+{
+    public class TodoItem
+    {
+        public int Id { get; set; }
+
+        public string Title { get; set; } = string.Empty;
+
+        public DateOnly? DueBy { get; set; }
+
+        public bool IsCompleted { get; set; }
+    }
+}

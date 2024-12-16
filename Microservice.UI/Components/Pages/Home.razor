@@ -1,0 +1,32 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h1 class="text-center">Experiment with buttons below, then explore <a href="http://188.245.171.230:4200" target="_blank">Logs Aggregator</a> to witness the implementation of a distributed logging system, seamlessly capturing logs from this system!</h1>
+<h2 class="text-center text-success"><i>Developed By Mostafa Ashraf</i></h2>
+
+<div class="d-flex flex-column justify-content-center align-content-center gap-5 flex-wrap mt-5">
+    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#dataDisplayingModal" @onclick="GetAllMethod">Get All Data</button>
+    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#dataDisplayingModal" @onclick="GetByIdMethod">Get Item By Random Id</button>
+    <button type="button" class="btn btn-warning btn-lg" @onclick="GetNotFoundMethod">Get 404 Response</button>
+    <button type="button" class="btn btn-danger btn-lg" @onclick="GetExceptionMethod">Throw Exception</button>
+</div>
+
+<!-- Generic Modal -->
+<div class="modal fade" id="dataDisplayingModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="dataDisplayingModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Received Response</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <pre><code>@FormattedApiResponse</code></pre>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary px-4" data-bs-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>

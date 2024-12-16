@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice", "Microservice\Microservice.csproj", "{DBA49185-02BF-497E-96B9-6CD904C79F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogsAggregatorApis", "LogsAggregatorApis\LogsAggregatorApis.csproj", "{1C161242-7025-42A4-A5F2-D1A90B6F197E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.UI", "Microservice.UI\Microservice.UI.csproj", "{749FB940-ED09-48C7-8E5C-FDFBE97F78B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBA49185-02BF-497E-96B9-6CD904C79F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA49185-02BF-497E-96B9-6CD904C79F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA49185-02BF-497E-96B9-6CD904C79F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA49185-02BF-497E-96B9-6CD904C79F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C161242-7025-42A4-A5F2-D1A90B6F197E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C161242-7025-42A4-A5F2-D1A90B6F197E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C161242-7025-42A4-A5F2-D1A90B6F197E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C161242-7025-42A4-A5F2-D1A90B6F197E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749FB940-ED09-48C7-8E5C-FDFBE97F78B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749FB940-ED09-48C7-8E5C-FDFBE97F78B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749FB940-ED09-48C7-8E5C-FDFBE97F78B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749FB940-ED09-48C7-8E5C-FDFBE97F78B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
